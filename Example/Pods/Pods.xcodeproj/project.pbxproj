@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0926466D4D35D8BCE7B8A319 /* OrangeRSAKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A7DE7851C1B40206EBFD38 /* OrangeRSAKeyManager.m */; };
+		26CE0D38615A5E02D576765C /* Pods-OGRSAEncryption-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F71DB45999C96F8A395E934C /* Pods-OGRSAEncryption-dummy.m */; };
+		2BB646E163DE84522022602D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651089001FAD97090B44DCD3 /* Foundation.framework */; };
+		2F757456CD80356A0F9D2FF6 /* Pods-Tests-OGRSAEncryption-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A3061103FD05921D3FCB7C /* Pods-Tests-OGRSAEncryption-dummy.m */; };
+		3C1FCC57E228A03A693A4773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651089001FAD97090B44DCD3 /* Foundation.framework */; };
+		4A254A7FE0B2D719B170776E /* OrangeRSAKeyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC90B60B799CED68314CC33 /* OrangeRSAKeyManager.h */; };
+		5543CDB1A50878F49100C238 /* OrangeRSAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 95ACC747A2D588D6996FFE89 /* OrangeRSAManager.h */; };
+		76AFEE12202A1763D3AEC902 /* Pods-OGRSAEncryption-OGRSAEncryption-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9866A648370C2C54F3AEF8BA /* Pods-OGRSAEncryption-OGRSAEncryption-dummy.m */; };
+		84F95751FE0C6A12FB0367A0 /* OrangeRSAKeyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC90B60B799CED68314CC33 /* OrangeRSAKeyManager.h */; };
+		B7DBD885CBDA476190EAB46B /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BDCE86C999EA2A25386588 /* Pods-Tests-dummy.m */; };
+		CA3E2B4382413BADC7E80CDF /* OrangeRSAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 95ACC747A2D588D6996FFE89 /* OrangeRSAManager.h */; };
+		EBD65835BD1D3BD1C60882D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651089001FAD97090B44DCD3 /* Foundation.framework */; };
+		ED01A3B9B40A5C6C25145100 /* OrangeRSAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1BADA189A29909C357472 /* OrangeRSAManager.m */; };
+		ED1E514336F1B690251C5632 /* OrangeRSAKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A7DE7851C1B40206EBFD38 /* OrangeRSAKeyManager.m */; };
+		F72EF330432E52EA6CC749FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651089001FAD97090B44DCD3 /* Foundation.framework */; };
+		FA28A70C49A750CD46F853A2 /* OrangeRSAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1BADA189A29909C357472 /* OrangeRSAManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02ACC8B2E627F27BA86D8B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E69415FB3C753C7E2FC9C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A808CF6901929234BD7FEAC;
+			remoteInfo = "Pods-Tests-OGRSAEncryption";
+		};
+		90B86F4B502B8C0EA5C07479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E69415FB3C753C7E2FC9C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204D836F7750033E163F00A1;
+			remoteInfo = "Pods-OGRSAEncryption-OGRSAEncryption";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1513C60C50516D29BB6CFC0F /* libPods-OGRSAEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OGRSAEncryption.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2029823027304380C7749924 /* Pods-OGRSAEncryption-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OGRSAEncryption-resources.sh"; sourceTree = "<group>"; };
+		27B69B76AD37A74765C544F1 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		288AA9B451B40384FC59398E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		471AA747B4E67F8E988707B8 /* Pods-Tests-OGRSAEncryption.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-OGRSAEncryption.xcconfig"; path = "../Pods-Tests-OGRSAEncryption/Pods-Tests-OGRSAEncryption.xcconfig"; sourceTree = "<group>"; };
+		4FF1BADA189A29909C357472 /* OrangeRSAManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OrangeRSAManager.m; sourceTree = "<group>"; };
+		50A9A4E9CF1113F46B39FBBD /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5376C0EC635951FBA2B200C5 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53ED2B4A57CA1F0467F19DB9 /* Pods-OGRSAEncryption-OGRSAEncryption.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OGRSAEncryption-OGRSAEncryption.xcconfig"; sourceTree = "<group>"; };
+		56BDD2E6AF172EABBF73E209 /* Pods-Tests-OGRSAEncryption-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-OGRSAEncryption-prefix.pch"; path = "../Pods-Tests-OGRSAEncryption/Pods-Tests-OGRSAEncryption-prefix.pch"; sourceTree = "<group>"; };
+		5AA0D557132AC598180B57F6 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		60D9F45873E9163D065FDD81 /* libPods-OGRSAEncryption-OGRSAEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OGRSAEncryption-OGRSAEncryption.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		651089001FAD97090B44DCD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EAC7F3D8739E6C3E1F13379 /* Pods-OGRSAEncryption-OGRSAEncryption-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OGRSAEncryption-OGRSAEncryption-Private.xcconfig"; sourceTree = "<group>"; };
+		76C82635C70473EE5AA0C864 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A06701879BDA2E8E5CAF3EB /* libPods-Tests-OGRSAEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-OGRSAEncryption.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C032D9DF0ABB2C40F1437E7 /* Pods-OGRSAEncryption-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OGRSAEncryption-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87A7DE7851C1B40206EBFD38 /* OrangeRSAKeyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OrangeRSAKeyManager.m; sourceTree = "<group>"; };
+		8E12A0916CF26789B4265531 /* Pods-OGRSAEncryption-OGRSAEncryption-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OGRSAEncryption-OGRSAEncryption-prefix.pch"; sourceTree = "<group>"; };
+		95ACC747A2D588D6996FFE89 /* OrangeRSAManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OrangeRSAManager.h; sourceTree = "<group>"; };
+		9792D0FD30B8157070DE99FC /* Pods-Tests-OGRSAEncryption-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-OGRSAEncryption-Private.xcconfig"; path = "../Pods-Tests-OGRSAEncryption/Pods-Tests-OGRSAEncryption-Private.xcconfig"; sourceTree = "<group>"; };
+		9866A648370C2C54F3AEF8BA /* Pods-OGRSAEncryption-OGRSAEncryption-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OGRSAEncryption-OGRSAEncryption-dummy.m"; sourceTree = "<group>"; };
+		A88C6B257A58B46A50430E61 /* Pods-OGRSAEncryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OGRSAEncryption.release.xcconfig"; sourceTree = "<group>"; };
+		AB47BE6F4180B9CE0A756B7A /* Pods-OGRSAEncryption-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OGRSAEncryption-environment.h"; sourceTree = "<group>"; };
+		ABFBE8EB3A514A224782C19F /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F2BFE088F8DDD33BE5DD3E /* Pods-OGRSAEncryption-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OGRSAEncryption-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1EE255323F87E7BA854D440 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		C6BDCE86C999EA2A25386588 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		C8A3061103FD05921D3FCB7C /* Pods-Tests-OGRSAEncryption-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-OGRSAEncryption-dummy.m"; path = "../Pods-Tests-OGRSAEncryption/Pods-Tests-OGRSAEncryption-dummy.m"; sourceTree = "<group>"; };
+		EAC61223C7395C66FCE5D785 /* Pods-OGRSAEncryption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OGRSAEncryption.debug.xcconfig"; sourceTree = "<group>"; };
+		F71DB45999C96F8A395E934C /* Pods-OGRSAEncryption-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OGRSAEncryption-dummy.m"; sourceTree = "<group>"; };
+		FAC90B60B799CED68314CC33 /* OrangeRSAKeyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OrangeRSAKeyManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C7AEAA0A7E1C935FF75129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72EF330432E52EA6CC749FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28C84E04D84B50C2BBEFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD65835BD1D3BD1C60882D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2C5909E0B7572502BC7EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB646E163DE84522022602D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E046B1F88753AD0CA6FB176A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1FCC57E228A03A693A4773 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F545BA06E8E63F71E3F3E7E /* OGRSAEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				8903FBA8211D608A256188DF /* Pod */,
+				E00067C74B47BD4BA3D73A39 /* Support Files */,
+			);
+			name = OGRSAEncryption;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		139FBE68E327FF1F89E30E41 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5376C0EC635951FBA2B200C5 /* Pods-Tests-acknowledgements.markdown */,
+				27B69B76AD37A74765C544F1 /* Pods-Tests-acknowledgements.plist */,
+				C6BDCE86C999EA2A25386588 /* Pods-Tests-dummy.m */,
+				C1EE255323F87E7BA854D440 /* Pods-Tests-environment.h */,
+				5AA0D557132AC598180B57F6 /* Pods-Tests-resources.sh */,
+				ABFBE8EB3A514A224782C19F /* Pods-Tests.debug.xcconfig */,
+				288AA9B451B40384FC59398E /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		3279E35CD10D3410F94D24E0 = {
+			isa = PBXGroup;
+			children = (
+				76C82635C70473EE5AA0C864 /* Podfile */,
+				566F52105B0E9C20BF6F2A96 /* Development Pods */,
+				4F398B0A29C92A261BDB1838 /* Frameworks */,
+				3970671A3095828D9DCF548E /* Products */,
+				547E9B3DEEC75238A84EBBCE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		3970671A3095828D9DCF548E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1513C60C50516D29BB6CFC0F /* libPods-OGRSAEncryption.a */,
+				60D9F45873E9163D065FDD81 /* libPods-OGRSAEncryption-OGRSAEncryption.a */,
+				50A9A4E9CF1113F46B39FBBD /* libPods-Tests.a */,
+				7A06701879BDA2E8E5CAF3EB /* libPods-Tests-OGRSAEncryption.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F398B0A29C92A261BDB1838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8ADD6E5B7C180307552D255 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		547E9B3DEEC75238A84EBBCE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDD919B47059A566C43E3405 /* Pods-OGRSAEncryption */,
+				139FBE68E327FF1F89E30E41 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		566F52105B0E9C20BF6F2A96 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F545BA06E8E63F71E3F3E7E /* OGRSAEncryption */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8903FBA8211D608A256188DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF68A26388E6C0D6ADB0C39E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B8ADD6E5B7C180307552D255 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				651089001FAD97090B44DCD3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF68A26388E6C0D6ADB0C39E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAC90B60B799CED68314CC33 /* OrangeRSAKeyManager.h */,
+				87A7DE7851C1B40206EBFD38 /* OrangeRSAKeyManager.m */,
+				95ACC747A2D588D6996FFE89 /* OrangeRSAManager.h */,
+				4FF1BADA189A29909C357472 /* OrangeRSAManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E00067C74B47BD4BA3D73A39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53ED2B4A57CA1F0467F19DB9 /* Pods-OGRSAEncryption-OGRSAEncryption.xcconfig */,
+				6EAC7F3D8739E6C3E1F13379 /* Pods-OGRSAEncryption-OGRSAEncryption-Private.xcconfig */,
+				9866A648370C2C54F3AEF8BA /* Pods-OGRSAEncryption-OGRSAEncryption-dummy.m */,
+				8E12A0916CF26789B4265531 /* Pods-OGRSAEncryption-OGRSAEncryption-prefix.pch */,
+				471AA747B4E67F8E988707B8 /* Pods-Tests-OGRSAEncryption.xcconfig */,
+				9792D0FD30B8157070DE99FC /* Pods-Tests-OGRSAEncryption-Private.xcconfig */,
+				C8A3061103FD05921D3FCB7C /* Pods-Tests-OGRSAEncryption-dummy.m */,
+				56BDD2E6AF172EABBF73E209 /* Pods-Tests-OGRSAEncryption-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-OGRSAEncryption-OGRSAEncryption";
+			sourceTree = "<group>";
+		};
+		EDD919B47059A566C43E3405 /* Pods-OGRSAEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				7C032D9DF0ABB2C40F1437E7 /* Pods-OGRSAEncryption-acknowledgements.markdown */,
+				C0F2BFE088F8DDD33BE5DD3E /* Pods-OGRSAEncryption-acknowledgements.plist */,
+				F71DB45999C96F8A395E934C /* Pods-OGRSAEncryption-dummy.m */,
+				AB47BE6F4180B9CE0A756B7A /* Pods-OGRSAEncryption-environment.h */,
+				2029823027304380C7749924 /* Pods-OGRSAEncryption-resources.sh */,
+				EAC61223C7395C66FCE5D785 /* Pods-OGRSAEncryption.debug.xcconfig */,
+				A88C6B257A58B46A50430E61 /* Pods-OGRSAEncryption.release.xcconfig */,
+			);
+			name = "Pods-OGRSAEncryption";
+			path = "Target Support Files/Pods-OGRSAEncryption";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FACEE5BCECFBF44FC411368 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F95751FE0C6A12FB0367A0 /* OrangeRSAKeyManager.h in Headers */,
+				CA3E2B4382413BADC7E80CDF /* OrangeRSAManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39205CFFB032FB1D91890E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A254A7FE0B2D719B170776E /* OrangeRSAKeyManager.h in Headers */,
+				5543CDB1A50878F49100C238 /* OrangeRSAManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A808CF6901929234BD7FEAC /* Pods-Tests-OGRSAEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2147BA78AC84935BC8F18FB /* Build configuration list for PBXNativeTarget "Pods-Tests-OGRSAEncryption" */;
+			buildPhases = (
+				41D02A15ECA9410776524FDA /* Sources */,
+				D28C84E04D84B50C2BBEFBB0 /* Frameworks */,
+				E39205CFFB032FB1D91890E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-OGRSAEncryption";
+			productName = "Pods-Tests-OGRSAEncryption";
+			productReference = 7A06701879BDA2E8E5CAF3EB /* libPods-Tests-OGRSAEncryption.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		204D836F7750033E163F00A1 /* Pods-OGRSAEncryption-OGRSAEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A57D082ACCEA9A035F001D /* Build configuration list for PBXNativeTarget "Pods-OGRSAEncryption-OGRSAEncryption" */;
+			buildPhases = (
+				4467743810DD82FB0323C8EF /* Sources */,
+				DB2C5909E0B7572502BC7EAC /* Frameworks */,
+				6FACEE5BCECFBF44FC411368 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OGRSAEncryption-OGRSAEncryption";
+			productName = "Pods-OGRSAEncryption-OGRSAEncryption";
+			productReference = 60D9F45873E9163D065FDD81 /* libPods-OGRSAEncryption-OGRSAEncryption.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7F58BCCD3C97AC6827CB846 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77C4310616F2EBE8779AFEC /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				A81288C335FF5075DA54CF21 /* Sources */,
+				32C7AEAA0A7E1C935FF75129 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7CC2B50CFEF78C5451E4533 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 50A9A4E9CF1113F46B39FBBD /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC1548F60CD68B50A45638A4 /* Pods-OGRSAEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9538E039F1EF009881E9182 /* Build configuration list for PBXNativeTarget "Pods-OGRSAEncryption" */;
+			buildPhases = (
+				6EF7C92DD17900F62F470005 /* Sources */,
+				E046B1F88753AD0CA6FB176A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E44833F9633D90ABDB69E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-OGRSAEncryption";
+			productName = "Pods-OGRSAEncryption";
+			productReference = 1513C60C50516D29BB6CFC0F /* libPods-OGRSAEncryption.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35E69415FB3C753C7E2FC9C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = E77B3908E39BF2E0B4F0F401 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3279E35CD10D3410F94D24E0;
+			productRefGroup = 3970671A3095828D9DCF548E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1548F60CD68B50A45638A4 /* Pods-OGRSAEncryption */,
+				204D836F7750033E163F00A1 /* Pods-OGRSAEncryption-OGRSAEncryption */,
+				D7F58BCCD3C97AC6827CB846 /* Pods-Tests */,
+				1A808CF6901929234BD7FEAC /* Pods-Tests-OGRSAEncryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D02A15ECA9410776524FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926466D4D35D8BCE7B8A319 /* OrangeRSAKeyManager.m in Sources */,
+				ED01A3B9B40A5C6C25145100 /* OrangeRSAManager.m in Sources */,
+				2F757456CD80356A0F9D2FF6 /* Pods-Tests-OGRSAEncryption-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4467743810DD82FB0323C8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1E514336F1B690251C5632 /* OrangeRSAKeyManager.m in Sources */,
+				FA28A70C49A750CD46F853A2 /* OrangeRSAManager.m in Sources */,
+				76AFEE12202A1763D3AEC902 /* Pods-OGRSAEncryption-OGRSAEncryption-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF7C92DD17900F62F470005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CE0D38615A5E02D576765C /* Pods-OGRSAEncryption-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81288C335FF5075DA54CF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DBD885CBDA476190EAB46B /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E44833F9633D90ABDB69E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OGRSAEncryption-OGRSAEncryption";
+			target = 204D836F7750033E163F00A1 /* Pods-OGRSAEncryption-OGRSAEncryption */;
+			targetProxy = 90B86F4B502B8C0EA5C07479 /* PBXContainerItemProxy */;
+		};
+		E7CC2B50CFEF78C5451E4533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-OGRSAEncryption";
+			target = 1A808CF6901929234BD7FEAC /* Pods-Tests-OGRSAEncryption */;
+			targetProxy = 02ACC8B2E627F27BA86D8B83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F84A2F660CFCB9C35663792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5BB6CB7FA1808DEA8F2D0BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288AA9B451B40384FC59398E /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		81E6AC10115A0ED8A156CFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EAC7F3D8739E6C3E1F13379 /* Pods-OGRSAEncryption-OGRSAEncryption-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OGRSAEncryption-OGRSAEncryption/Pods-OGRSAEncryption-OGRSAEncryption-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9E38DCB8B81EA812E3FDEC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABFBE8EB3A514A224782C19F /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9FC3AA39F098612DEF280E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9792D0FD30B8157070DE99FC /* Pods-Tests-OGRSAEncryption-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-OGRSAEncryption/Pods-Tests-OGRSAEncryption-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A0B518B38D868D03681402B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9792D0FD30B8157070DE99FC /* Pods-Tests-OGRSAEncryption-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-OGRSAEncryption/Pods-Tests-OGRSAEncryption-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A19514364A4C870BD920FE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA4F2510DEFD0CD2645EC495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EAC7F3D8739E6C3E1F13379 /* Pods-OGRSAEncryption-OGRSAEncryption-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OGRSAEncryption-OGRSAEncryption/Pods-OGRSAEncryption-OGRSAEncryption-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D568D5C22A4D9F5C42814409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88C6B257A58B46A50430E61 /* Pods-OGRSAEncryption.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F9F205C7BE8DB31487057F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC61223C7395C66FCE5D785 /* Pods-OGRSAEncryption.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A57D082ACCEA9A035F001D /* Build configuration list for PBXNativeTarget "Pods-OGRSAEncryption-OGRSAEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E6AC10115A0ED8A156CFCE /* Debug */,
+				CA4F2510DEFD0CD2645EC495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2147BA78AC84935BC8F18FB /* Build configuration list for PBXNativeTarget "Pods-Tests-OGRSAEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B518B38D868D03681402B0 /* Debug */,
+				9FC3AA39F098612DEF280E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77C4310616F2EBE8779AFEC /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E38DCB8B81EA812E3FDEC13 /* Debug */,
+				5BB6CB7FA1808DEA8F2D0BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77B3908E39BF2E0B4F0F401 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F84A2F660CFCB9C35663792 /* Debug */,
+				A19514364A4C870BD920FE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9538E039F1EF009881E9182 /* Build configuration list for PBXNativeTarget "Pods-OGRSAEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F205C7BE8DB31487057F02 /* Debug */,
+				D568D5C22A4D9F5C42814409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35E69415FB3C753C7E2FC9C8 /* Project object */;
+}

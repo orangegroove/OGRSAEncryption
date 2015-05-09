@@ -1,15 +1,11 @@
 # OGRSAEncryption
 
-[![CI Status](http://img.shields.io/travis/Jesper/OGRSAEncryption.svg?style=flat)](https://travis-ci.org/Jesper/OGRSAEncryption)
-[![Version](https://img.shields.io/cocoapods/v/OGRSAEncryption.svg?style=flat)](http://cocoapods.org/pods/OGRSAEncryption)
-[![License](https://img.shields.io/cocoapods/l/OGRSAEncryption.svg?style=flat)](http://cocoapods.org/pods/OGRSAEncryption)
-[![Platform](https://img.shields.io/cocoapods/p/OGRSAEncryption.svg?style=flat)](http://cocoapods.org/pods/OGRSAEncryption)
+* Manages a keypair and an optional number of foreign public keys.
+* Asymmetrically encrypts and decrypts, signs and verifies signatures.
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -22,7 +18,7 @@ pod "OGRSAEncryption"
 
 ## Author
 
-Jesper, jesper.skrufve@gmail.com
+Jesper, jesper@orangegroove.net
 
 ## License
 

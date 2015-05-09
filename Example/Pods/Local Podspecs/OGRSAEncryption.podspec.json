@@ -1,0 +1,21 @@
+{
+  "name": "OGRSAEncryption",
+  "version": "0.1.0",
+  "summary": "RSA Encryption.",
+  "description": "                       Asymmetric key encryption, signing.\n",
+  "homepage": "https://github.com/orangegroove/OGRSAEncryption",
+  "license": "MIT",
+  "authors": {
+    "Jesper": "jesper@orangegroove.net"
+  },
+  "source": {
+    "git": "https://github.com/orangegroove/OGRSAEncryption.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "frameworks": "Foundation"
+}

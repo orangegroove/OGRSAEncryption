@@ -1,0 +1,14 @@
+PODS:
+  - OGRSAEncryption (0.1.0)
+
+DEPENDENCIES:
+  - OGRSAEncryption (from `../`)
+
+EXTERNAL SOURCES:
+  OGRSAEncryption:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OGRSAEncryption: e4b6a55f30394a7a2cfa07cb54e8c297447efc68
+
+COCOAPODS: 0.37.1
